@@ -1,0 +1,18 @@
+#sidebar-content {
+  display: none;
+  width: 0px;
+  height: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  border-left: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 9999;
+}
+
+#sidebar {
+  width: 0px;
+  height: 0px;
+}

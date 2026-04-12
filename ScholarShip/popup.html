@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ScholarShip</title>
+  <link rel="stylesheet" type="text/css" href="css/popup.css">
+</head>
+<body>
+  <a href="https://scholarship.wenzhub.top/" target="_blank" style="text-decoration: none; color: inherit;">
+    <img id="logo" src="images/logo.png" alt="ScholarShip Logo" style="display: block; margin: 0 auto; width: 128px; height: 128px;">
+    <h1 >ScholarShip V1.3</h1>
+    <p id="title" style="text-align: center;">Connecting...</p>
+  </a>
+  <div class="switch-container">
+    <label for="enhance-switch">Enhance</label>
+    <div style="display: flex; align-items: center;">
+        <label class="switch">
+            <input type="checkbox" id="enhance-switch">
+            <span class="slider round"></span>
+        </label>
+        <a id="change-key-btn" href="#" style="color: #007bff; text-decoration: none; display: none; margin-left: 5px;">Change Key</a>
+        <a id="get-plus-link-outside" href="https://scholarship.wenzhub.top" target="_blank" style="color: #007bff; text-decoration: none; display: none; margin-left: 10px;">Get Plus</a>
+    </div>
+  </div>
+  <div id="dialog-overlay" style="display: none;">
+    <div id="dialog-box">
+      <h4>Please Read <a href="https://scholarship.wenzhub.top" target="_blank" id="get-plus">Notice</a> Carefully</h4>
+      <input type="text" id="key-input" placeholder="Enter your key here">
+      <div id="dialog-buttons">
+        <button id="submit-key">Submit</button>
+        <button id="cancel-key">Cancel</button>
+      </div>
+    </div>
+  </div>
+  <footer style="text-align: center; color: gray;">developed by zyman & cyc</footer>
+  <script src="js/popup.js"></script>
+</body>
+</html>

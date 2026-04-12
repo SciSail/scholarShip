@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "ScholarShip - for Pubmed & Google Scholar"
+  },
+  "appDesc": {
+    "message": "A pure extension for displaying and filtering PubMed/Google Scholar Impact Factors."
+  },
+  "appTitle": {
+    "message": "ScholarShip"
+  }
+}
