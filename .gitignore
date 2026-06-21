@@ -1,3 +1,14 @@
+# macOS
 .DS_Store
+._*
+
+# Development-only files
+for_dev/
+
+# Packaged release artifacts
+*.zip
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class

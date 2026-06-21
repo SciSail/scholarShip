@@ -3,7 +3,7 @@
     "message": "ScholarShip - for Pubmed & Google Scholar"
   },
   "appDesc": {
-    "message": "A pure extension for displaying and filtering PubMed/Google Scholar Impact Factors."
+    "message": "A pure extension for displaying and filtering PubMed/Google Scholar Impact Factors, updated with JCR 2025, CAS 2025, and CAS Emerging 2026 partitions."
   },
   "appTitle": {
     "message": "ScholarShip"

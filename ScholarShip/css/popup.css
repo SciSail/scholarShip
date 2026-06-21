@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  width: 200px;
+  width: 220px;
   padding: 10px;
 }
 
@@ -8,12 +8,57 @@ h1 {
   font-size: 20px;
   text-align: center;
 }
+
 .switch-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 10px 0;
 }
+
+.mode-section {
+  margin: 10px 0;
+}
+
+.mode-header {
+  margin-bottom: 6px;
+}
+
+.segmented-control {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.segmented-control button {
+  padding: 6px 4px;
+  border: 0;
+  border-right: 1px solid #d9d9d9;
+  background: #f7f7f7;
+  color: #262626;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.segmented-control button:last-child {
+  border-right: 0;
+}
+
+.segmented-control button.active {
+  background: #2196F3;
+  color: white;
+}
+
+.mode-hint {
+  margin-top: 4px;
+  color: #8c8c8c;
+  font-size: 11px;
+  text-align: right;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -78,6 +123,24 @@ input:disabled + .slider {
   cursor: not-allowed;
   background-color: #e0e0e0;
 }
+
+#refresh-data-btn {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 4px 0 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#refresh-data-btn:disabled {
+  cursor: wait;
+  background-color: #8c8c8c;
+}
+
 #dialog-overlay {
   position: fixed;
   top: 0;
