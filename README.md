@@ -52,10 +52,10 @@
 
 ---
 
-<p align="center">如果你觉得这个扩展对你有帮助，欢迎请我们喝杯咖啡！</p>
+<p align="center">关注公众号，了解更多动态！</p>
 
 <p align="center">
-  <img src="images/qrcode.jpg" alt="请我喝杯咖啡" width="200">
+  <img src="images/qrcode.jpg" alt="qrcode" width="200">
 </p>
 
 <p align="center">Contact us: scisail@126.com</p>
