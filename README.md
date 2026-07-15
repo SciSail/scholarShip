@@ -55,7 +55,7 @@
 <p align="center">关注公众号，了解更多动态！</p>
 
 <p align="center">
-  <img src="images/qrcode.jpg" alt="qrcode" width="200">
+  <img src="images/qrcode.png" alt="qrcode" width="200">
 </p>
 
 <p align="center">Contact us: scisail@126.com</p>
